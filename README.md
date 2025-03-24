@@ -43,6 +43,7 @@ Okay, let's convert the hexadecimal number "21" to decimal!
 
 So, the hexadecimal number "21" is equal to 33 in the decimal system.
 
+---
 
 Okay, so we're starting with the decimal number 21, and we want to convert it to hexadecimal.  This is the reverse of what we've been doing!
 
@@ -147,6 +148,7 @@ This method works because both binary and hexadecimal are based on powers of 2. 
 
 This grouping method makes conversions between binary and hexadecimal much easier than converting to decimal first! Try it out, and you'll find it becomes second nature quickly.
 
+---
 
 You're exactly right! You've got the process down perfectly. Let's break it down step-by-step to confirm:
 
@@ -160,10 +162,7 @@ You're exactly right! You've got the process down perfectly. Let's break it down
 
 3.  **Combine:** You combined the hex digits in the correct order to get `236`.
 
-**Your initial statement `001000110110 = 234?` was almost right, with the hex digits just being the wrong way round - you had the correct hex digits but just reversed them! It is 236.**
-
-You've demonstrated a clear understanding of the binary-to-hexadecimal conversion process.  Excellent work!
-
+---
 
 Okay, let's dive into Boolean logic and diagrams! This is fundamental to how computers work.
 
@@ -279,7 +278,7 @@ Let's create a diagram and truth table for the expression: `(A AND B) OR (NOT C)
     | 1 | 1 | 0 | 1         | 1       | 1                     |
     | 1 | 1 | 1 | 1         | 0       | 1                     |
 
-**Key Takeaways for a 14-Year-Old:**
+**Key Takeaways:**
 
 *   Think of Boolean logic as a set of rules for working with "true" and "false."
 *   AND, OR, and NOT are the fundamental building blocks.
@@ -379,51 +378,7 @@ Apply the absorption law
 
 Simplifying Boolean expressions is a bit like solving a puzzle. There's often more than one way to arrive at the simplest form. Practice and familiarity with the laws will make you much faster and more efficient!
 
-
-You're on the right track with recognizing a pattern, but there's a crucial detail to clarify about swapping + and · in Boolean algebra, and how it relates to De Morgan's Law. It's *not* a direct swap like in some probability scenarios, and the negation (`) plays a vital role.
-
-**It's *NOT* a Direct Swap:**
-
-You *cannot* simply say (A · B)' = A + B. This is incorrect. The correct form involves De Morgan's Theorem:
-
-*   **(A · B)' = A' + B'** (The NOT of (A AND B) is (NOT A) OR (NOT B))
-*   **(A + B)' = A' · B'** (The NOT of (A OR B) is (NOT A) AND (NOT B))
-
-**The Key Role of Negation (The '):**
-
-The prime symbol (') or the bar over a variable (Ā) represents the NOT operation, which is essential to De Morgan's Law. It's the negation, *combined* with the swapping of operators, that makes De Morgan's work.
-
-**Breaking Down De Morgan's (Again):**
-
-Think of it as a two-step process:
-
-1.  **"Break the Bar":** If you have a negation over a whole expression (like a long bar over multiple variables), you "break" the bar so that each variable is individually negated.
-2.  **"Change the Sign":** You change AND (·) to OR (+), and OR (+) to AND (·).
-
-**Why It's NOT Like Probability (Sometimes):**
-
-In *some* specific probability scenarios, you might see a resemblance to this swapping, but it's based on different underlying principles. The complement of an intersection of events has some similarity. However this similarity falls down.
-
-**Correct Examples (Using De Morgan's):**
-
-*   **(X · Y · Z)' = X' + Y' + Z'`
-*   **(P + Q + R)' = P' · Q' · R'`
-*   **((A + B) · C)' = (A + B)' + C' = (A' · B') + C'`
-
-**Incorrect Examples (Direct Swaps that DON'T Work):**
-
-*   **(A · B)' ≠ A + B** (Incorrect)
-*   **(X + Y)' ≠ X · Y** (Incorrect)
-
-**In summary:**
-
-*   De Morgan's Law is the *correct* way to handle negations over AND and OR expressions.
-*   It involves *both* inverting the individual variables *and* changing the operation (AND to OR, OR to AND).
-*   A direct swap of + and · without considering negation is *not* a valid Boolean algebra operation.
-*   The similarity to probability is only an analogy at the level of this question.
-
-The confusion is very understandable.  The key is to always remember the negation and the "break the bar, change the sign" rule for De Morgan's.
-
+---
 
 Okay, that's a comprehensive list! Let's break down these computer science definitions and concepts. I'll provide concise, exam-focused explanations, hitting all the key points for AQA GCSE Computer Science.
 
@@ -601,6 +556,8 @@ Okay, that's a comprehensive list! Let's break down these computer science defin
     *   **Foreign Key:**  A field in one table that refers to the primary key in another table, creating a link.
 *   **SQL (Structured Query Language):**  The standard language for interacting with relational databases.
 
+---
+
 **SQL Commands (Basic):**
 
 *   **SELECT:**  Retrieves data from a table.
@@ -644,6 +601,7 @@ INNER JOIN table_2 ON Table_1.column = Table_2.column;
 
 This covers a huge amount of ground. This is a lot to absorb in one go, so focus on understanding one section at a time. Use this as a reference, and feel free to ask if you have more specific questions about any of these topics. Good luck with your revision!
 
+---
 
 Okay, let's learn SQL with practical, whole-command examples, nicely formatted on multiple lines for readability. I'll start with the basics and gradually increase complexity, explaining each part as we go.
 
@@ -957,6 +915,7 @@ LIMIT
 
 The best way to remember the order is to practice writing SQL queries. The more you use it, the more natural the order will become. Start with simple queries and gradually add more clauses. Don't be afraid to experiment and make mistakes – that's how you learn!
 
+---
 
 Okay, let's create tables of advantages and disadvantages for the relevant computer science concepts. This is a great way to prepare for exam questions that ask you to evaluate different options.
 
